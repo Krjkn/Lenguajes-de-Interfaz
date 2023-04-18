@@ -13,7 +13,7 @@ main proc
     mov ss, ax
     mov sp, offset pila
 
-    ; A?adir datos a la pila en ascii
+    ; Añadir datos a la pila en ascii
     mov ax, 74
     push ax
     mov ax, 65
